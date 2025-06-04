@@ -1,0 +1,29 @@
+{
+    "usuarios": [
+      {
+        "cpf": "12345678900",
+        "nome": "Maria Silva",
+        "nascimento": "01/01/1990",
+        "endereco": "Rua X, 123 - Bairro - Cidade/UF"
+      }
+    ],
+    "contas": [
+      {
+        "numero": 1,
+        "agencia": "0001",
+        "usuario_cpf": "12345678900",
+        "saldo": 2500.0,
+        "saques_hoje": 1,
+        "ultimo_saque_data": "2025-06-02"
+      }
+    ],
+    "transacoes": [
+      {
+        "conta": 1,
+        "tipo": "Depósito",
+        "valor": 1000.0,
+        "horario": "2025-06-01 15:22:10"
+      }
+    ]
+  }
+  
